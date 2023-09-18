@@ -1,9 +1,14 @@
 import "./App.css";
+// import DaisyNav from "./components/DaisyNav/DaisyNav";
+import Navbar from "./components/Navbar/Navbar";
+import PriceOptions from "./components/PriceOptions/PriceOptions";
 
 function App() {
   return (
     <>
-      <h1 className="text-6xl bg-rose-600">Price Options</h1>
+      {/* <DaisyNav /> */}
+      <Navbar />
+      <PriceOptions />
     </>
   );
 }
